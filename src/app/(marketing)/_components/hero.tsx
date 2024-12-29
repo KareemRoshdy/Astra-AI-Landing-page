@@ -47,10 +47,15 @@ const Hero = () => {
 
           <div className="flex flex-col items-center mt-8 max-w-3xl mx-auto w-11/12 md:w-full">
             <h1 
-               className="text-4xl md:text-6xl md:!leading-snug font-semibold text-center text-transparent bg-clip-text"
-  style={{
-    backgroundImage: "linear-gradient(to bottom, #f8fafc, #e5e7eb)",
-  }}
+                style={{
+                      fontSize: "2.25rem", 
+                      fontWeight: "600", 
+                      textAlign: "center",
+                      lineHeight: "1.5", 
+                      backgroundImage: "linear-gradient(to bottom, #f8fafc, #e5e7eb)", 
+                      WebkitBackgroundClip: "text",
+                      color: "transparent",
+                    }}
               >
               Build your idea and ship your dream site
             </h1>
