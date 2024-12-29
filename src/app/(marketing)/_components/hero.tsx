@@ -46,7 +46,7 @@ const Hero = () => {
           </button>
 
           <div className="flex flex-col items-center mt-8 max-w-3xl mx-auto w-11/12 md:w-full">
-            <h1 className="text-4xl md:text-6xl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-200 text-transparent">
+            <h1 className="text-4xl md:text-6xl md:!leading-snug font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-gray-50 to-gray-500">
               Build your idea and ship your dream site
             </h1>
 
